@@ -1,0 +1,4 @@
+after     for group_idx, group in enumerate(measurement_groups):
+ we need to perform the track initiation then in track iniatiation we do the gating and all checks , set flags if its state == 3 mode and poss 1 state is false do the initialize_filter state
+else ig flags if its state == 3 mode and poss 1 state is true and tentative is false do the initialize_filter state
+else flags if its state == 3 mode and poss 1 state is true and tentative is true and firm is false do the predict(mt) and update step 
